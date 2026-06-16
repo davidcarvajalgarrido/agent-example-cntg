@@ -16,7 +16,6 @@
  *   node review-pr.js --owner miusuario --repo mirepo --pr 123
  */
 
-import { readFileSync } from "fs";
 import { createInterface } from "readline/promises";
 import { stdin as input, stdout as output } from "process";
 import * as dotenv from "dotenv";
