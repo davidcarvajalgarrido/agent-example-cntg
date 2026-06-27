@@ -1,0 +1,14 @@
+{
+  "name": "pr-review-agent",
+  "version": "1.0.0",
+  "description": "Agente educativo de revisión de Pull Requests con OpenAI y GitHub",
+  "type": "module",
+  "scripts": {
+    "review": "node review-pr.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.1.1",
+    "dotenv": "^16.4.5",
+    "openai": "^4.47.1"
+  }
+}
